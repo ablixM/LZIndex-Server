@@ -19,7 +19,10 @@ const PORT = process.env.PORT || 5000;
 // CORS configuration for development
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "*",
+    origin: [
+      process.env.FRONTEND_URL || "http://localhost:3000",
+      "https://lzindex.vercel.app",
+    ],
     methods: ["GET", "POST"],
     credentials: true,
   })
