@@ -8,7 +8,7 @@ The following environment variables are required:
 
 ```
 PORT=5000
-FRONTEND_URL=https://lz-ai.vercel.app
+FRONTEND_URL=https://lzindex.vercel.app
 ES_URL=your-elasticsearch-url
 ES_USERNAME=elastic
 ES_PASSWORD=your-password
